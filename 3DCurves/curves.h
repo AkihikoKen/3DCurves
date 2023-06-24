@@ -1,11 +1,19 @@
 #ifndef CURVES_H
 #define CURVES_H
 
-#include "vector3D.h"
-
 #include <cmath>
 #include <vector>
 #include <algorithm>
+
+class Vector3D {
+public:
+    double x;
+    double y;
+    double z;
+
+    Vector3D(double x = 0.0, double y = 0.0, double z = 0.0);
+};
+
 
 class Curve {
 public:

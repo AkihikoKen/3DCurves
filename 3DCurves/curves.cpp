@@ -2,6 +2,9 @@
 
 double const PI = 3.1415926535;
 
+Vector3D::Vector3D(double x, double y, double z) : x(x), y(y), z(z) {}
+
+
 Circle::Circle(double radius) : radius(radius) {}
 
 Vector3D Circle::getCoordinate(double t) const {
